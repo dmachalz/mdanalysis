@@ -3,7 +3,7 @@
 Collection of scripts to be used with MDAnalysis. MDAnalysis is really awesome package that allows to analyse Molecular Dynamics simulations in python. (https://github.com/MDAnalysis)
 
 ## perimeter.py
-Monitor the perimeter between a selection of atoms for a MD simulation
+Monitor the perimeter between a selection of atoms for a MD simulation. You only need to define the working directory "REPLACEME"
 
 ## Running MDAnalysis wrapper
 This provides config template (mdanalysis/config/config-template.cfg that can be used to execute standard analysis on MD simulation trajectories via (mdanalysis/main.py), which applies MDAnalysis.  
