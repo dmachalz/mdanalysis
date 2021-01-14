@@ -1,4 +1,4 @@
-# mdanalysis
+# Tools for MDAnalysis
 
 Collection of scripts to be used with MDAnalysis. MDAnalysis is really awesome package that allows to analyse Molecular Dynamics simulations in python. (https://github.com/MDAnalysis)
 
