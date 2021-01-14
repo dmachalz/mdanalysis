@@ -5,8 +5,8 @@ Collection of scripts to be used with MDAnalysis. MDAnalysis is really awesome p
 ## perimeter.py
 Monitor the perimeter between a selection of atoms for a MD simulation
 
-## mdanalysis/main.py & mdanalysis/config/config-template.cfg
-This provides config template that can be used to execute standard analysis on MD simulation trajectories via main.py, which again applies MDAnalysis.  
+## Running MDAnalysis wrapper
+This provides config template (mdanalysis/config/config-template.cfg that can be used to execute standard analysis on MD simulation trajectories via (mdanalysis/main.py), which applies MDAnalysis.  
 For atom selection syntax of MDAnalysis see https://docs.mdanalysis.org/stable/documentation_pages/selections.html
 
 ### Monitoring of atom distances
