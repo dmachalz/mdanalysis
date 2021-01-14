@@ -46,8 +46,6 @@ for ts in u.trajectory:
     perilist.append([step, u.trajectory.time, peri])
 perilist = np.array(perilist)
 
-#distdict['dist{}'.format(n)] = np.array(distlist)
-
 print('Finished perimeter calculations and writing out file to \"{}\"'.format(outputpath))
 # adding distances
 # writing out
