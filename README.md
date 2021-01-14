@@ -10,9 +10,13 @@ This provides config template (mdanalysis/config/config-template.cfg that can be
 For atom selection syntax of MDAnalysis see https://docs.mdanalysis.org/stable/documentation_pages/selections.html
 
 ### Monitoring of atom distances
-To monitor more than one pair of atoms state the selection command of atom pairs separated by semicolon:  
-selectionlist = \<atomselection1>, \<atomselection2>; \<atomselection3>, \<atomselection4>  
+To monitor more than one pair of atoms state the selection command of atom pairs separated by semicolon  
+```
+selectionlist = <atomselection1>, <atomselection2>; <atomselection3>, <atomselection4>  
 labellist = atom1-atom2, atom3-atom4
-
+```
 ### Example
+Execute the wrapper with your config.cfg
+```
 python main.py config.cfg
+```
